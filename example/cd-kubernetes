@@ -7,7 +7,7 @@ on:
 
 env:
   KUBECONFIG: ${{ secrets.KUBECONFIG }}
-
+#to store ci/cd secrets /credentials
 jobs:
   deploy:
     runs-on: kubernetes
