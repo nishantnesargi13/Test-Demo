@@ -13,7 +13,7 @@ jobs:
   strategy:
    matrix:
    #app to run on these 2 version seperately
-     python-version: [3.8,3.9]
+     python-version: [3.10]
 
 #satges start
   steps:
